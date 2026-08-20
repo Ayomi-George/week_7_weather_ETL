@@ -108,11 +108,11 @@ Weather-ETL-Pipeline/
 
 The .env file containing the private OpenWeather API key is intentionally excluded from the repository using .gitignore.
 
-What I Learned
+## What I Learned
 
 This project provided practical experience in building an ETL pipeline using Python.
 
-I learned how to:
+## I learned how to:
 
 -Connect Python to an external API
 -Retrieve and work with JSON data
@@ -125,13 +125,13 @@ I learned how to:
 -Organize an ETL workflow into Extract, Transform, and Load stages
 -The project also reinforced the importance of data validation and secure handling of API credentials when working with external data sources.
 
-Conclusion
+## Conclusion
 -The project successfully demonstrates a basic automated ETL workflow.
 -Weather data was extracted from the OpenWeather API for Lagos, London, and New York. The raw JSON responses were transformed into a clean Pandas DataFrame, validated for data quality, and loaded into a CSV file.
 -The resulting dataset was then used to perform basic comparisons of temperature, humidity, weather conditions, and wind speed across the selected cities.
 Overall, the project demonstrates how an ETL pipeline can convert raw API data into a structured dataset that is ready for analysis.
 
-Future Improvements
+## Future Improvements
 -The pipeline could be expanded by:
 -Collecting weather data from more cities
 -Scheduling the pipeline to run automatically
