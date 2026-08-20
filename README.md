@@ -114,28 +114,28 @@ This project provided practical experience in building an ETL pipeline using Pyt
 
 ## I learned how to:
 
--Connect Python to an external API
--Retrieve and work with JSON data
--Extract specific fields from nested API responses
--Use Pandas to structure and transform data
--Convert Unix timestamps into readable datetime values
--Validate datasets by checking for missing and duplicate records
--Store transformed data as a CSV file
--Separate API credentials from source code
--Organize an ETL workflow into Extract, Transform, and Load stages
--The project also reinforced the importance of data validation and secure handling of API credentials when working with external data sources.
+- Connect Python to an external API
+- Retrieve and work with JSON data
+- Extract specific fields from nested API responses
+- Use Pandas to structure and transform data
+- Convert Unix timestamps into readable datetime values
+- Validate datasets by checking for missing and duplicate records
+- Store transformed data as a CSV file
+- Separate API credentials from source code
+- Organize an ETL workflow into Extract, Transform, and Load stages
+- The project also reinforced the importance of data validation and secure handling of API credentials when working with external data sources.
 
 ## Conclusion
--The project successfully demonstrates a basic automated ETL workflow.
--Weather data was extracted from the OpenWeather API for Lagos, London, and New York. The raw JSON responses were transformed into a clean Pandas DataFrame, validated for data quality, and loaded into a CSV file.
--The resulting dataset was then used to perform basic comparisons of temperature, humidity, weather conditions, and wind speed across the selected cities.
+- The project successfully demonstrates a basic automated ETL workflow.
+- Weather data was extracted from the OpenWeather API for Lagos, London, and New York. The raw JSON responses were transformed into a clean Pandas DataFrame, validated for data quality, and loaded into a CSV file.
+- The resulting dataset was then used to perform basic comparisons of temperature, humidity, weather conditions, and wind speed across the selected cities.
 Overall, the project demonstrates how an ETL pipeline can convert raw API data into a structured dataset that is ready for analysis.
 
 ## Future Improvements
--The pipeline could be expanded by:
--Collecting weather data from more cities
--Scheduling the pipeline to run automatically
--Storing historical API results instead of only the latest snapshot
--Adding more advanced data visualizations
--Storing the data in a SQLite database
+- The pipeline could be expanded by:
+- Collecting weather data from more cities
+- Scheduling the pipeline to run automatically
+- Storing historical API results instead of only the latest snapshot
+- Adding more advanced data visualizations
+- Storing the data in a SQLite database
 -Building a dashboard to monitor weather trends over time
