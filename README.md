@@ -104,6 +104,7 @@ Weather-ETL-Pipeline/
 ├── processed_weather_data.csv
 ├── README.md
 └── .gitignore
+```
 
 The .env file containing the private OpenWeather API key is intentionally excluded from the repository using .gitignore.
 
